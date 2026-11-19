@@ -3,8 +3,8 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-18 17:50 UTC",
- "ledger_date": "2026-11-18",
+ "as_of": "2026-11-19 16:47 UTC",
+ "ledger_date": "2026-11-19",
  "books": [
   {
    "id": "cobalt",
@@ -17,19 +17,19 @@
    "ongoing": true,
    "basis": "Account equity, open positions included.",
    "notes": [],
-   "trades": 8,
+   "trades": 9,
    "start": "2026-11-10",
-   "end": "2026-11-17",
-   "days": 8,
-   "ret_pct": 3.53,
-   "max_dd_pct": -1.77,
+   "end": "2026-11-18",
+   "days": 9,
+   "ret_pct": -0.19,
+   "max_dd_pct": -3.59,
    "ret_30d_pct": null,
    "sharpe": null,
    "sortino": null,
    "calmar": null,
    "sample": null,
    "best_day_pct": 2.92,
-   "worst_day_pct": -1.77,
+   "worst_day_pct": -3.59,
    "win_rate_pct": null,
    "profit_factor": null,
    "curve": [
@@ -77,6 +77,11 @@
      "2026-11-17",
      3.53,
      0.0
+    ],
+    [
+     "2026-11-18",
+     -0.19,
+     -3.59
     ]
    ]
   },
@@ -93,12 +98,12 @@
    "notes": [],
    "trades": 3,
    "start": "2026-09-18",
-   "end": "2026-11-17",
-   "days": 43,
+   "end": "2026-11-18",
+   "days": 44,
    "ret_pct": 7.06,
    "max_dd_pct": -0.4,
    "ret_30d_pct": 0.0,
-   "sharpe": 3.14,
+   "sharpe": 3.11,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -326,6 +331,11 @@
      "2026-11-17",
      7.06,
      0.0
+    ],
+    [
+     "2026-11-18",
+     7.06,
+     0.0
     ]
    ]
   },
@@ -340,17 +350,17 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "The daily calls posted on X (table below) are scored at a fixed size after fees, so they differ from this account curve."
+    "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 56,
    "start": "2026-06-25",
-   "end": "2026-11-18",
-   "days": 147,
-   "ret_pct": 141.38,
+   "end": "2026-11-19",
+   "days": 148,
+   "ret_pct": 141.1,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 17.38,
-   "sharpe": 2.87,
-   "sortino": 6.02,
+   "ret_30d_pct": 13.64,
+   "sharpe": 2.85,
+   "sortino": 5.99,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1095,8 +1105,13 @@
     ],
     [
      "2026-11-18",
-     141.38,
-     -23.72
+     142.84,
+     -23.25
+    ],
+    [
+     "2026-11-19",
+     141.1,
+     -23.8
     ]
    ]
   },
@@ -1113,12 +1128,12 @@
    "notes": [],
    "trades": 6,
    "start": "2026-10-16",
-   "end": "2026-11-18",
-   "days": 34,
-   "ret_pct": 7.88,
+   "end": "2026-11-19",
+   "days": 35,
+   "ret_pct": 7.82,
    "max_dd_pct": -0.33,
-   "ret_30d_pct": 7.47,
-   "sharpe": 5.98,
+   "ret_30d_pct": 7.41,
+   "sharpe": 5.86,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -1299,7 +1314,12 @@
     ],
     [
      "2026-11-18",
-     7.88,
+     6.68,
+     0.0
+    ],
+    [
+     "2026-11-19",
+     7.82,
      0.0
     ]
    ]
@@ -1315,21 +1335,21 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 30,
+   "trades": 31,
    "start": "2026-10-20",
-   "end": "2026-11-18",
-   "days": 30,
-   "ret_pct": 3.71,
+   "end": "2026-11-19",
+   "days": 31,
+   "ret_pct": 2.95,
    "max_dd_pct": -2.97,
-   "ret_30d_pct": 3.71,
-   "sharpe": 2.92,
+   "ret_30d_pct": 3.01,
+   "sharpe": 2.26,
    "sortino": null,
    "calmar": null,
    "sample": "short",
    "best_day_pct": 1.66,
    "worst_day_pct": -1.68,
-   "win_rate_pct": 56.7,
-   "profit_factor": 1.47,
+   "win_rate_pct": 54.8,
+   "profit_factor": 1.35,
    "curve": [
     [
      "2026-10-19",
@@ -1485,6 +1505,11 @@
      "2026-11-18",
      3.71,
      -0.71
+    ],
+    [
+     "2026-11-19",
+     2.95,
+     -1.44
     ]
    ]
   },
@@ -1499,11 +1524,11 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 16,
+   "trades": 17,
    "start": "2026-10-26",
-   "end": "2026-11-17",
-   "days": 17,
-   "ret_pct": 6.06,
+   "end": "2026-11-18",
+   "days": 18,
+   "ret_pct": 6.31,
    "max_dd_pct": -2.99,
    "ret_30d_pct": null,
    "sharpe": null,
@@ -1512,8 +1537,8 @@
    "sample": null,
    "best_day_pct": 2.04,
    "worst_day_pct": -2.5,
-   "win_rate_pct": 62.5,
-   "profit_factor": 1.77,
+   "win_rate_pct": 64.7,
+   "profit_factor": 1.8,
    "curve": [
     [
      "2026-10-25",
@@ -1604,6 +1629,11 @@
      "2026-11-17",
      6.06,
      0.0
+    ],
+    [
+     "2026-11-18",
+     6.31,
+     0.0
     ]
    ]
   },
@@ -1618,11 +1648,11 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 16,
+   "trades": 17,
    "start": "2026-10-26",
-   "end": "2026-11-17",
-   "days": 17,
-   "ret_pct": 2.21,
+   "end": "2026-11-18",
+   "days": 18,
+   "ret_pct": 2.42,
    "max_dd_pct": -2.04,
    "ret_30d_pct": null,
    "sharpe": null,
@@ -1631,8 +1661,8 @@
    "sample": null,
    "best_day_pct": 1.57,
    "worst_day_pct": -2.04,
-   "win_rate_pct": 62.5,
-   "profit_factor": 1.4,
+   "win_rate_pct": 64.7,
+   "profit_factor": 1.44,
    "curve": [
     [
      "2026-10-25",
@@ -1723,6 +1753,11 @@
      "2026-11-17",
      2.21,
      0.0
+    ],
+    [
+     "2026-11-18",
+     2.42,
+     0.0
     ]
    ]
   },
@@ -1737,12 +1772,12 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 16,
+   "trades": 17,
    "start": "2026-10-26",
-   "end": "2026-11-17",
-   "days": 17,
-   "ret_pct": 2.97,
-   "max_dd_pct": -5.43,
+   "end": "2026-11-18",
+   "days": 18,
+   "ret_pct": -0.25,
+   "max_dd_pct": -8.39,
    "ret_30d_pct": null,
    "sharpe": null,
    "sortino": null,
@@ -1750,8 +1785,8 @@
    "sample": null,
    "best_day_pct": 4.85,
    "worst_day_pct": -4.42,
-   "win_rate_pct": 62.5,
-   "profit_factor": 1.34,
+   "win_rate_pct": 58.8,
+   "profit_factor": 1.01,
    "curve": [
     [
      "2026-10-25",
@@ -1842,6 +1877,11 @@
      "2026-11-17",
      2.97,
      -5.43
+    ],
+    [
+     "2026-11-18",
+     -0.25,
+     -8.39
     ]
    ]
   },
@@ -1856,12 +1896,12 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 16,
+   "trades": 17,
    "start": "2026-10-26",
-   "end": "2026-11-17",
-   "days": 17,
-   "ret_pct": 5.56,
-   "max_dd_pct": -5.42,
+   "end": "2026-11-18",
+   "days": 18,
+   "ret_pct": 3.47,
+   "max_dd_pct": -7.24,
    "ret_30d_pct": null,
    "sharpe": null,
    "sortino": null,
@@ -1869,8 +1909,8 @@
    "sample": null,
    "best_day_pct": 5.95,
    "worst_day_pct": -3.19,
-   "win_rate_pct": 37.5,
-   "profit_factor": 1.5,
+   "win_rate_pct": 35.3,
+   "profit_factor": 1.28,
    "curve": [
     [
      "2026-10-25",
@@ -1961,6 +2001,11 @@
      "2026-11-17",
      5.56,
      -5.37
+    ],
+    [
+     "2026-11-18",
+     3.47,
+     -7.24
     ]
    ]
   },
@@ -1975,11 +2020,11 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
    "notes": [],
-   "trades": 17,
+   "trades": 18,
    "start": "2026-11-01",
-   "end": "2026-11-17",
-   "days": 17,
-   "ret_pct": 2.47,
+   "end": "2026-11-18",
+   "days": 18,
+   "ret_pct": 1.91,
    "max_dd_pct": -1.0,
    "ret_30d_pct": null,
    "sharpe": null,
@@ -1988,8 +2033,8 @@
    "sample": null,
    "best_day_pct": 1.08,
    "worst_day_pct": -1.0,
-   "win_rate_pct": 58.8,
-   "profit_factor": 1.92,
+   "win_rate_pct": 55.6,
+   "profit_factor": 1.6,
    "curve": [
     [
      "2026-10-31",
@@ -2080,6 +2125,11 @@
      "2026-11-17",
      2.47,
      0.0
+    ],
+    [
+     "2026-11-18",
+     1.91,
+     -0.55
     ]
    ]
   },
@@ -2104,7 +2154,7 @@
    "ret_pct": 11.93,
    "max_dd_pct": -13.18,
    "ret_30d_pct": null,
-   "sharpe": 0.98,
+   "sharpe": 1.0,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -2530,8 +2580,8 @@
    ],
    "trades": 4,
    "start": "2026-11-03",
-   "end": "2026-11-17",
-   "days": 11,
+   "end": "2026-11-18",
+   "days": 12,
    "ret_pct": 11.26,
    "max_dd_pct": -3.28,
    "ret_30d_pct": null,
@@ -2603,6 +2653,11 @@
      "2026-11-17",
      11.26,
      -0.71
+    ],
+    [
+     "2026-11-18",
+     11.26,
+     -0.71
     ]
    ]
   }
@@ -2619,14 +2674,20 @@
   {
    "date": "2026-11-17",
    "side": "long",
-   "sized_ret_pct": -0.01,
+   "sized_ret_pct": -0.03,
    "url": "https://x.com/ModelvsMarketAI/status/2122484872820240617"
   },
   {
    "date": "2026-11-18",
    "side": "short",
-   "sized_ret_pct": null,
+   "sized_ret_pct": 4.19,
    "url": "https://x.com/ModelvsMarketAI/status/2122847261998604667"
+  },
+  {
+   "date": "2026-11-19",
+   "side": "short",
+   "sized_ret_pct": null,
+   "url": "https://x.com/ModelvsMarketAI/status/2123209646328426605"
   }
  ],
  "posted_weekly": [
