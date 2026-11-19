@@ -3,12 +3,13 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-19 18:47 UTC",
+ "as_of": "2026-11-19 19:47 UTC",
  "ledger_date": "2026-11-19",
  "books": [
   {
    "id": "cobalt",
    "part": "all",
+   "benchmark": null,
    "codename": "Cobalt",
    "market": "Crypto",
    "name": "Cobalt (Crypto)",
@@ -88,6 +89,7 @@
   {
    "id": "flint",
    "part": "all",
+   "benchmark": null,
    "codename": "Flint",
    "market": "US stocks",
    "name": "Flint (US stocks)",
@@ -342,6 +344,12 @@
   {
    "id": "onyx",
    "part": "all",
+   "benchmark": {
+    "name": "Bitcoin",
+    "ret_pct": 2.96,
+    "max_dd_pct": -27.4,
+    "end": "2026-11-19"
+   },
    "codename": "Onyx",
    "market": "Bitcoin",
    "name": "Onyx (Bitcoin)",
@@ -350,17 +358,18 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
+    "Bitcoin buy-and-hold over the same days: +2.96%, max drawdown -27.40%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 56,
    "start": "2026-06-25",
    "end": "2026-11-19",
    "days": 148,
-   "ret_pct": 141.94,
+   "ret_pct": 144.47,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 14.04,
-   "sharpe": 2.86,
-   "sortino": 6.01,
+   "ret_30d_pct": 15.23,
+   "sharpe": 2.89,
+   "sortino": 6.07,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1110,14 +1119,20 @@
     ],
     [
      "2026-11-19",
-     141.94,
-     -23.54
+     144.47,
+     -22.74
     ]
    ]
   },
   {
    "id": "garnet",
    "part": "all",
+   "benchmark": {
+    "name": "Bitcoin",
+    "ret_pct": -23.54,
+    "max_dd_pct": -25.22,
+    "end": "2026-11-19"
+   },
    "codename": "Garnet",
    "market": "Bitcoin",
    "name": "Garnet (Bitcoin)",
@@ -1125,15 +1140,17 @@
    "money": "sim",
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
-   "notes": [],
+   "notes": [
+    "Bitcoin buy-and-hold over the same days: -23.54%, max drawdown -25.22%."
+   ],
    "trades": 6,
    "start": "2026-10-16",
    "end": "2026-11-19",
    "days": 35,
-   "ret_pct": 7.92,
+   "ret_pct": 8.23,
    "max_dd_pct": -0.33,
-   "ret_30d_pct": 7.51,
-   "sharpe": 5.91,
+   "ret_30d_pct": 7.82,
+   "sharpe": 6.02,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -1319,7 +1336,7 @@
     ],
     [
      "2026-11-19",
-     7.92,
+     8.23,
      0.0
     ]
    ]
@@ -1327,13 +1344,14 @@
   {
    "id": "quartz",
    "part": "all",
+   "benchmark": null,
    "codename": "Quartz",
    "market": "Crypto",
    "name": "Quartz (Crypto)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 31,
    "start": "2026-10-20",
@@ -1516,13 +1534,14 @@
   {
    "id": "slate",
    "part": "all",
+   "benchmark": null,
    "codename": "Slate",
    "market": "US stocks",
    "name": "Slate (US stocks)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 17,
    "start": "2026-10-26",
@@ -1640,13 +1659,14 @@
   {
    "id": "jade",
    "part": "all",
+   "benchmark": null,
    "codename": "Jade",
    "market": "US stocks",
    "name": "Jade (US stocks)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 17,
    "start": "2026-10-26",
@@ -1764,13 +1784,14 @@
   {
    "id": "topaz",
    "part": "all",
+   "benchmark": null,
    "codename": "Topaz",
    "market": "US stocks",
    "name": "Topaz (US stocks)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 17,
    "start": "2026-10-26",
@@ -1888,13 +1909,14 @@
   {
    "id": "basalt",
    "part": "all",
+   "benchmark": null,
    "codename": "Basalt",
    "market": "US stocks",
    "name": "Basalt (US stocks)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 17,
    "start": "2026-10-26",
@@ -2012,13 +2034,14 @@
   {
    "id": "zircon",
    "part": "all",
+   "benchmark": null,
    "codename": "Zircon",
    "market": "Crypto",
    "name": "Zircon (Crypto)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
    "trades": 18,
    "start": "2026-11-01",
@@ -2136,6 +2159,7 @@
   {
    "id": "umber",
    "part": "live",
+   "benchmark": null,
    "codename": "Umber",
    "market": "Gold",
    "name": "Umber (Gold)",
@@ -2568,13 +2592,14 @@
   {
    "id": "umber",
    "part": "paper",
+   "benchmark": null,
    "codename": "Umber",
    "market": "Gold",
    "name": "Umber (Gold)",
    "label": "paper",
    "money": "none",
    "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded. No orders, no money.",
+   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [
     "Paper since 2026-11-03, after its live period to 2026-11-02 (listed with the live books)."
    ],
