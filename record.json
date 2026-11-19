@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-19 20:47 UTC",
+ "as_of": "2026-11-19 21:47 UTC",
  "ledger_date": "2026-11-19",
  "books": [
   {
@@ -346,8 +346,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": 2.12,
-    "max_dd_pct": -27.99,
+    "ret_pct": 1.72,
+    "max_dd_pct": -28.27,
     "end": "2026-11-19"
    },
    "codename": "Onyx",
@@ -358,18 +358,18 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: +2.12%, max drawdown -27.99%.",
+    "Bitcoin buy-and-hold over the same days: +1.72%, max drawdown -28.27%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 56,
    "start": "2026-06-25",
    "end": "2026-11-19",
    "days": 148,
-   "ret_pct": 147.09,
+   "ret_pct": 150.07,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 16.46,
-   "sharpe": 2.92,
-   "sortino": 6.14,
+   "ret_30d_pct": 17.87,
+   "sharpe": 2.95,
+   "sortino": 6.21,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1119,8 +1119,8 @@
     ],
     [
      "2026-11-19",
-     147.09,
-     -21.91
+     150.07,
+     -20.97
     ]
    ]
   },
@@ -1129,8 +1129,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -24.16,
-    "max_dd_pct": -25.83,
+    "ret_pct": -24.46,
+    "max_dd_pct": -26.12,
     "end": "2026-11-19"
    },
    "codename": "Garnet",
@@ -1141,16 +1141,16 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -24.16%, max drawdown -25.83%."
+    "Bitcoin buy-and-hold over the same days: -24.46%, max drawdown -26.12%."
    ],
    "trades": 6,
    "start": "2026-10-16",
    "end": "2026-11-19",
    "days": 35,
-   "ret_pct": 8.52,
+   "ret_pct": 8.89,
    "max_dd_pct": -0.33,
-   "ret_30d_pct": 8.11,
-   "sharpe": 6.1,
+   "ret_30d_pct": 8.48,
+   "sharpe": 6.17,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -1336,7 +1336,7 @@
     ],
     [
      "2026-11-19",
-     8.52,
+     8.89,
      0.0
     ]
    ]
