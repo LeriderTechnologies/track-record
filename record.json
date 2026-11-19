@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-19 17:47 UTC",
+ "as_of": "2026-11-19 18:47 UTC",
  "ledger_date": "2026-11-19",
  "books": [
   {
@@ -356,11 +356,11 @@
    "start": "2026-06-25",
    "end": "2026-11-19",
    "days": 148,
-   "ret_pct": 142.56,
+   "ret_pct": 141.94,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 14.33,
-   "sharpe": 2.87,
-   "sortino": 6.03,
+   "ret_30d_pct": 14.04,
+   "sharpe": 2.86,
+   "sortino": 6.01,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1110,8 +1110,8 @@
     ],
     [
      "2026-11-19",
-     142.56,
-     -23.34
+     141.94,
+     -23.54
     ]
    ]
   },
@@ -1130,10 +1130,10 @@
    "start": "2026-10-16",
    "end": "2026-11-19",
    "days": 35,
-   "ret_pct": 7.99,
+   "ret_pct": 7.92,
    "max_dd_pct": -0.33,
-   "ret_30d_pct": 7.58,
-   "sharpe": 5.93,
+   "ret_30d_pct": 7.51,
+   "sharpe": 5.91,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -1319,7 +1319,7 @@
     ],
     [
      "2026-11-19",
-     7.99,
+     7.92,
      0.0
     ]
    ]
