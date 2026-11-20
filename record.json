@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-20 05:47 UTC",
+ "as_of": "2026-11-20 06:47 UTC",
  "ledger_date": "2026-11-20",
  "books": [
   {
@@ -356,8 +356,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": 0.72,
-    "max_dd_pct": -28.98,
+    "ret_pct": 1.37,
+    "max_dd_pct": -28.52,
     "end": "2026-11-20"
    },
    "codename": "Onyx",
@@ -368,16 +368,16 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: +0.72%, max drawdown -28.98%.",
+    "Bitcoin buy-and-hold over the same days: +1.37%, max drawdown -28.52%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 57,
    "start": "2026-06-25",
    "end": "2026-11-20",
    "days": 149,
-   "ret_pct": 146.31,
+   "ret_pct": 146.34,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 12.1,
+   "ret_30d_pct": 12.11,
    "sharpe": 2.9,
    "sortino": 6.1,
    "calmar": null,
@@ -1134,8 +1134,8 @@
     ],
     [
      "2026-11-20",
-     146.31,
-     -22.16
+     146.34,
+     -22.15
     ]
    ]
   },
@@ -1144,8 +1144,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -25.2,
-    "max_dd_pct": -26.85,
+    "ret_pct": -24.72,
+    "max_dd_pct": -26.37,
     "end": "2026-11-20"
    },
    "codename": "Garnet",
@@ -1156,7 +1156,7 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -25.20%, max drawdown -26.85%."
+    "Bitcoin buy-and-hold over the same days: -24.72%, max drawdown -26.37%."
    ],
    "trades": 7,
    "start": "2026-10-16",
