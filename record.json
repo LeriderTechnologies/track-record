@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-19 23:47 UTC",
+ "as_of": "2026-11-20 00:47 UTC",
  "ledger_date": "2026-11-20",
  "books": [
   {
@@ -351,8 +351,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": 1.79,
-    "max_dd_pct": -28.22,
+    "ret_pct": 1.49,
+    "max_dd_pct": -28.44,
     "end": "2026-11-19"
    },
    "codename": "Onyx",
@@ -363,24 +363,24 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: +1.79%, max drawdown -28.22%.",
+    "Bitcoin buy-and-hold over the same days: +1.49%, max drawdown -28.44%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
-   "trades": 56,
+   "trades": 57,
    "start": "2026-06-25",
-   "end": "2026-11-19",
-   "days": 148,
-   "ret_pct": 148.02,
+   "end": "2026-11-20",
+   "days": 149,
+   "ret_pct": 147.15,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 16.9,
-   "sharpe": 2.93,
-   "sortino": 6.16,
+   "ret_30d_pct": 12.48,
+   "sharpe": 2.91,
+   "sortino": 6.12,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
    "worst_day_pct": -13.22,
-   "win_rate_pct": 55.4,
-   "profit_factor": 1.8,
+   "win_rate_pct": 56.1,
+   "profit_factor": 1.9,
    "curve": [
     [
      "2026-06-24",
@@ -1124,8 +1124,13 @@
     ],
     [
      "2026-11-19",
-     148.02,
-     -21.61
+     147.39,
+     -21.82
+    ],
+    [
+     "2026-11-20",
+     147.15,
+     -21.89
     ]
    ]
   },
@@ -1134,8 +1139,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -24.41,
-    "max_dd_pct": -26.07,
+    "ret_pct": -24.63,
+    "max_dd_pct": -26.29,
     "end": "2026-11-19"
    },
    "codename": "Garnet",
@@ -1146,16 +1151,16 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -24.41%, max drawdown -26.07%."
+    "Bitcoin buy-and-hold over the same days: -24.63%, max drawdown -26.29%."
    ],
-   "trades": 6,
+   "trades": 7,
    "start": "2026-10-16",
    "end": "2026-11-20",
    "days": 36,
-   "ret_pct": 8.61,
+   "ret_pct": 8.4,
    "max_dd_pct": -0.33,
-   "ret_30d_pct": 8.2,
-   "sharpe": 6.03,
+   "ret_30d_pct": 7.99,
+   "sharpe": 5.98,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -1346,7 +1351,7 @@
     ],
     [
      "2026-11-20",
-     8.61,
+     8.4,
      0.0
     ]
    ]
@@ -1363,21 +1368,21 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
-   "trades": 31,
+   "trades": 32,
    "start": "2026-10-20",
-   "end": "2026-11-19",
-   "days": 31,
-   "ret_pct": 2.95,
+   "end": "2026-11-20",
+   "days": 32,
+   "ret_pct": 2.36,
    "max_dd_pct": -2.97,
-   "ret_30d_pct": 3.01,
-   "sharpe": 2.26,
+   "ret_30d_pct": 3.08,
+   "sharpe": 1.79,
    "sortino": null,
    "calmar": null,
    "sample": "short",
    "best_day_pct": 1.66,
    "worst_day_pct": -1.68,
-   "win_rate_pct": 54.8,
-   "profit_factor": 1.35,
+   "win_rate_pct": 53.1,
+   "profit_factor": 1.26,
    "curve": [
     [
      "2026-10-19",
@@ -1538,6 +1543,11 @@
      "2026-11-19",
      2.95,
      -1.44
+    ],
+    [
+     "2026-11-20",
+     2.36,
+     -2.0
     ]
    ]
   },
@@ -2751,8 +2761,14 @@
   {
    "date": "2026-11-19",
    "side": "short",
-   "sized_ret_pct": null,
+   "sized_ret_pct": 2.61,
    "url": "https://x.com/ModelvsMarketAI/status/2123209646328426605"
+  },
+  {
+   "date": "2026-11-20",
+   "side": "long",
+   "sized_ret_pct": null,
+   "url": "https://x.com/ModelvsMarketAI/status/2123572036555440256"
   }
  ],
  "posted_weekly": [
