@@ -3,8 +3,8 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-20 07:47 UTC",
- "ledger_date": "2026-11-20",
+ "as_of": "2026-11-21 11:47 UTC",
+ "ledger_date": "2026-11-21",
  "books": [
   {
    "id": "cobalt",
@@ -18,12 +18,12 @@
    "ongoing": true,
    "basis": "Account equity, open positions included.",
    "notes": [],
-   "trades": 10,
+   "trades": 11,
    "start": "2026-11-10",
-   "end": "2026-11-19",
-   "days": 10,
-   "ret_pct": -0.29,
-   "max_dd_pct": -3.69,
+   "end": "2026-11-20",
+   "days": 11,
+   "ret_pct": -1.46,
+   "max_dd_pct": -4.81,
    "ret_30d_pct": null,
    "sharpe": null,
    "sortino": null,
@@ -31,8 +31,8 @@
    "sample": null,
    "best_day_pct": 2.92,
    "worst_day_pct": -3.59,
-   "win_rate_pct": 50.0,
-   "profit_factor": 0.98,
+   "win_rate_pct": 45.5,
+   "profit_factor": 0.85,
    "curve": [
     [
      "2026-11-09",
@@ -88,6 +88,11 @@
      "2026-11-19",
      -0.29,
      -3.69
+    ],
+    [
+     "2026-11-20",
+     -1.46,
+     -4.81
     ]
    ]
   },
@@ -105,12 +110,12 @@
    "notes": [],
    "trades": 3,
    "start": "2026-09-18",
-   "end": "2026-11-19",
-   "days": 45,
+   "end": "2026-11-20",
+   "days": 46,
    "ret_pct": 7.06,
    "max_dd_pct": -0.4,
    "ret_30d_pct": 0.0,
-   "sharpe": 3.07,
+   "sharpe": 3.04,
    "sortino": null,
    "calmar": null,
    "sample": "short",
@@ -348,6 +353,11 @@
      "2026-11-19",
      7.06,
      0.0
+    ],
+    [
+     "2026-11-20",
+     7.06,
+     0.0
     ]
    ]
   },
@@ -356,9 +366,9 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": 1.6,
-    "max_dd_pct": -28.44,
-    "end": "2026-11-20"
+    "ret_pct": -4.7,
+    "max_dd_pct": -32.8,
+    "end": "2026-11-21"
    },
    "codename": "Onyx",
    "market": "Bitcoin",
@@ -368,24 +378,24 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: +1.60%, max drawdown -28.44%.",
+    "Bitcoin buy-and-hold over the same days: -4.70%, max drawdown -32.80%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
-   "trades": 57,
+   "trades": 58,
    "start": "2026-06-25",
-   "end": "2026-11-20",
-   "days": 149,
-   "ret_pct": 146.19,
+   "end": "2026-11-21",
+   "days": 150,
+   "ret_pct": 135.71,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": 12.05,
-   "sharpe": 2.9,
-   "sortino": 6.09,
+   "ret_30d_pct": -0.67,
+   "sharpe": 2.76,
+   "sortino": 5.77,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
    "worst_day_pct": -13.22,
-   "win_rate_pct": 56.1,
-   "profit_factor": 1.9,
+   "win_rate_pct": 55.2,
+   "profit_factor": 1.88,
    "curve": [
     [
      "2026-06-24",
@@ -1134,8 +1144,13 @@
     ],
     [
      "2026-11-20",
-     146.19,
-     -22.19
+     137.61,
+     -24.91
+    ],
+    [
+     "2026-11-21",
+     135.71,
+     -25.51
     ]
    ]
   },
@@ -1144,8 +1159,8 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -24.55,
-    "max_dd_pct": -26.29,
+    "ret_pct": -28.32,
+    "max_dd_pct": -29.9,
     "end": "2026-11-20"
    },
    "codename": "Garnet",
@@ -1156,7 +1171,7 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -24.55%, max drawdown -26.29%."
+    "Bitcoin buy-and-hold over the same days: -28.32%, max drawdown -29.90%."
    ],
    "trades": 7,
    "start": "2026-10-16",
@@ -1181,7 +1196,7 @@
     ],
     [
      "2026-10-16",
-     0.38,
+     0.0,
      0.0
     ],
     [
@@ -1216,7 +1231,7 @@
     ],
     [
      "2026-10-23",
-     1.45,
+     0.38,
      0.0
     ],
     [
@@ -1251,7 +1266,7 @@
     ],
     [
      "2026-10-30",
-     5.09,
+     1.45,
      0.0
     ],
     [
@@ -1373,21 +1388,21 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
-   "trades": 32,
+   "trades": 33,
    "start": "2026-10-20",
-   "end": "2026-11-20",
-   "days": 32,
-   "ret_pct": 2.36,
+   "end": "2026-11-21",
+   "days": 33,
+   "ret_pct": 1.79,
    "max_dd_pct": -2.97,
-   "ret_30d_pct": 3.08,
-   "sharpe": 1.79,
+   "ret_30d_pct": 3.16,
+   "sharpe": 1.35,
    "sortino": null,
    "calmar": null,
    "sample": "short",
    "best_day_pct": 1.66,
    "worst_day_pct": -1.68,
-   "win_rate_pct": 53.1,
-   "profit_factor": 1.26,
+   "win_rate_pct": 51.5,
+   "profit_factor": 1.19,
    "curve": [
     [
      "2026-10-19",
@@ -1553,6 +1568,11 @@
      "2026-11-20",
      2.36,
      -2.0
+    ],
+    [
+     "2026-11-21",
+     1.79,
+     -2.55
     ]
    ]
   },
@@ -1568,11 +1588,11 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
-   "trades": 17,
+   "trades": 19,
    "start": "2026-10-26",
-   "end": "2026-11-19",
-   "days": 19,
-   "ret_pct": 6.31,
+   "end": "2026-11-20",
+   "days": 20,
+   "ret_pct": 6.61,
    "max_dd_pct": -2.99,
    "ret_30d_pct": null,
    "sharpe": null,
@@ -1581,8 +1601,8 @@
    "sample": null,
    "best_day_pct": 2.04,
    "worst_day_pct": -2.5,
-   "win_rate_pct": 64.7,
-   "profit_factor": 1.8,
+   "win_rate_pct": 63.2,
+   "profit_factor": 1.79,
    "curve": [
     [
      "2026-10-25",
@@ -1681,1068 +1701,18 @@
     ],
     [
      "2026-11-19",
-     6.31,
+     5.8,
+     -0.47
+    ],
+    [
+     "2026-11-20",
+     6.61,
      0.0
-    ]
-   ]
-  },
-  {
-   "id": "jade",
-   "part": "all",
-   "benchmark": null,
-   "codename": "Jade",
-   "market": "US stocks",
-   "name": "Jade (US stocks)",
-   "label": "paper",
-   "money": "none",
-   "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
-   "notes": [],
-   "trades": 17,
-   "start": "2026-10-26",
-   "end": "2026-11-19",
-   "days": 19,
-   "ret_pct": 2.42,
-   "max_dd_pct": -2.04,
-   "ret_30d_pct": null,
-   "sharpe": null,
-   "sortino": null,
-   "calmar": null,
-   "sample": null,
-   "best_day_pct": 1.57,
-   "worst_day_pct": -2.04,
-   "win_rate_pct": 64.7,
-   "profit_factor": 1.44,
-   "curve": [
-    [
-     "2026-10-25",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-10-26",
-     -0.65,
-     -0.65
-    ],
-    [
-     "2026-10-27",
-     -0.65,
-     -0.65
-    ],
-    [
-     "2026-10-28",
-     -0.76,
-     -0.76
-    ],
-    [
-     "2026-10-29",
-     -0.72,
-     -0.72
-    ],
-    [
-     "2026-10-30",
-     -1.18,
-     -1.18
-    ],
-    [
-     "2026-11-02",
-     -0.19,
-     -0.19
-    ],
-    [
-     "2026-11-03",
-     -1.49,
-     -1.49
-    ],
-    [
-     "2026-11-04",
-     -0.82,
-     -0.82
-    ],
-    [
-     "2026-11-05",
-     -0.2,
-     -0.2
-    ],
-    [
-     "2026-11-06",
-     -1.3,
-     -1.3
-    ],
-    [
-     "2026-11-09",
-     -0.67,
-     -0.67
-    ],
-    [
-     "2026-11-10",
-     -0.41,
-     -0.41
-    ],
-    [
-     "2026-11-11",
-     1.15,
-     0.0
-    ],
-    [
-     "2026-11-12",
-     -0.92,
-     -2.04
-    ],
-    [
-     "2026-11-13",
-     0.52,
-     -0.63
-    ],
-    [
-     "2026-11-16",
-     1.55,
-     0.0
-    ],
-    [
-     "2026-11-17",
-     2.21,
-     0.0
-    ],
-    [
-     "2026-11-18",
-     2.42,
-     0.0
-    ],
-    [
-     "2026-11-19",
-     2.42,
-     0.0
-    ]
-   ]
-  },
-  {
-   "id": "topaz",
-   "part": "all",
-   "benchmark": null,
-   "codename": "Topaz",
-   "market": "US stocks",
-   "name": "Topaz (US stocks)",
-   "label": "paper",
-   "money": "none",
-   "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
-   "notes": [],
-   "trades": 17,
-   "start": "2026-10-26",
-   "end": "2026-11-19",
-   "days": 19,
-   "ret_pct": -0.25,
-   "max_dd_pct": -8.39,
-   "ret_30d_pct": null,
-   "sharpe": null,
-   "sortino": null,
-   "calmar": null,
-   "sample": null,
-   "best_day_pct": 4.85,
-   "worst_day_pct": -4.42,
-   "win_rate_pct": 58.8,
-   "profit_factor": 1.01,
-   "curve": [
-    [
-     "2026-10-25",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-10-26",
-     -1.17,
-     -1.17
-    ],
-    [
-     "2026-10-27",
-     -1.17,
-     -1.17
-    ],
-    [
-     "2026-10-28",
-     0.07,
-     0.0
-    ],
-    [
-     "2026-10-29",
-     0.97,
-     0.0
-    ],
-    [
-     "2026-10-30",
-     1.19,
-     0.0
-    ],
-    [
-     "2026-11-02",
-     1.85,
-     0.0
-    ],
-    [
-     "2026-11-03",
-     2.79,
-     0.0
-    ],
-    [
-     "2026-11-04",
-     1.05,
-     -1.7
-    ],
-    [
-     "2026-11-05",
-     1.21,
-     -1.54
-    ],
-    [
-     "2026-11-06",
-     0.15,
-     -2.58
-    ],
-    [
-     "2026-11-09",
-     5.01,
-     0.0
-    ],
-    [
-     "2026-11-10",
-     6.5,
-     0.0
-    ],
-    [
-     "2026-11-11",
-     8.88,
-     0.0
-    ],
-    [
-     "2026-11-12",
-     8.46,
-     -0.39
-    ],
-    [
-     "2026-11-13",
-     8.53,
-     -0.32
-    ],
-    [
-     "2026-11-16",
-     7.73,
-     -1.06
-    ],
-    [
-     "2026-11-17",
-     2.97,
-     -5.43
-    ],
-    [
-     "2026-11-18",
-     -0.25,
-     -8.39
-    ],
-    [
-     "2026-11-19",
-     -0.25,
-     -8.39
-    ]
-   ]
-  },
-  {
-   "id": "basalt",
-   "part": "all",
-   "benchmark": null,
-   "codename": "Basalt",
-   "market": "US stocks",
-   "name": "Basalt (US stocks)",
-   "label": "paper",
-   "money": "none",
-   "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
-   "notes": [],
-   "trades": 17,
-   "start": "2026-10-26",
-   "end": "2026-11-19",
-   "days": 19,
-   "ret_pct": 3.47,
-   "max_dd_pct": -7.24,
-   "ret_30d_pct": null,
-   "sharpe": null,
-   "sortino": null,
-   "calmar": null,
-   "sample": null,
-   "best_day_pct": 5.95,
-   "worst_day_pct": -3.19,
-   "win_rate_pct": 35.3,
-   "profit_factor": 1.28,
-   "curve": [
-    [
-     "2026-10-25",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-10-26",
-     2.31,
-     0.0
-    ],
-    [
-     "2026-10-27",
-     2.31,
-     0.0
-    ],
-    [
-     "2026-10-28",
-     8.4,
-     0.0
-    ],
-    [
-     "2026-10-29",
-     7.58,
-     -0.76
-    ],
-    [
-     "2026-10-30",
-     6.37,
-     -1.88
-    ],
-    [
-     "2026-11-02",
-     5.83,
-     -2.38
-    ],
-    [
-     "2026-11-03",
-     6.02,
-     -2.2
-    ],
-    [
-     "2026-11-04",
-     5.91,
-     -2.3
-    ],
-    [
-     "2026-11-05",
-     2.52,
-     -5.42
-    ],
-    [
-     "2026-11-06",
-     3.56,
-     -4.47
-    ],
-    [
-     "2026-11-09",
-     8.87,
-     0.0
-    ],
-    [
-     "2026-11-10",
-     8.13,
-     -0.68
-    ],
-    [
-     "2026-11-11",
-     11.54,
-     0.0
-    ],
-    [
-     "2026-11-12",
-     10.94,
-     -0.54
-    ],
-    [
-     "2026-11-13",
-     10.16,
-     -1.24
-    ],
-    [
-     "2026-11-16",
-     8.13,
-     -3.06
-    ],
-    [
-     "2026-11-17",
-     5.56,
-     -5.37
-    ],
-    [
-     "2026-11-18",
-     3.47,
-     -7.24
-    ],
-    [
-     "2026-11-19",
-     3.47,
-     -7.24
-    ]
-   ]
-  },
-  {
-   "id": "zircon",
-   "part": "all",
-   "benchmark": null,
-   "codename": "Zircon",
-   "market": "Crypto",
-   "name": "Zircon (Crypto)",
-   "label": "paper",
-   "money": "none",
-   "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
-   "notes": [],
-   "trades": 19,
-   "start": "2026-11-01",
-   "end": "2026-11-19",
-   "days": 19,
-   "ret_pct": 0.97,
-   "max_dd_pct": -1.46,
-   "ret_30d_pct": null,
-   "sharpe": null,
-   "sortino": null,
-   "calmar": null,
-   "sample": null,
-   "best_day_pct": 1.08,
-   "worst_day_pct": -1.0,
-   "win_rate_pct": 52.6,
-   "profit_factor": 1.24,
-   "curve": [
-    [
-     "2026-10-31",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-11-01",
-     0.42,
-     0.0
-    ],
-    [
-     "2026-11-02",
-     0.9,
-     0.0
-    ],
-    [
-     "2026-11-03",
-     0.8,
-     -0.1
-    ],
-    [
-     "2026-11-04",
-     1.31,
-     0.0
-    ],
-    [
-     "2026-11-05",
-     1.78,
-     0.0
-    ],
-    [
-     "2026-11-06",
-     0.76,
-     -1.0
-    ],
-    [
-     "2026-11-07",
-     1.21,
-     -0.56
-    ],
-    [
-     "2026-11-08",
-     1.94,
-     0.0
-    ],
-    [
-     "2026-11-09",
-     1.57,
-     -0.36
-    ],
-    [
-     "2026-11-10",
-     0.98,
-     -0.94
-    ],
-    [
-     "2026-11-11",
-     1.74,
-     -0.2
-    ],
-    [
-     "2026-11-12",
-     1.56,
-     -0.37
-    ],
-    [
-     "2026-11-13",
-     1.22,
-     -0.7
-    ],
-    [
-     "2026-11-14",
-     2.32,
-     0.0
-    ],
-    [
-     "2026-11-15",
-     2.18,
-     -0.13
-    ],
-    [
-     "2026-11-16",
-     2.39,
-     0.0
-    ],
-    [
-     "2026-11-17",
-     2.47,
-     0.0
-    ],
-    [
-     "2026-11-18",
-     1.91,
-     -0.55
-    ],
-    [
-     "2026-11-19",
-     0.97,
-     -1.46
-    ]
-   ]
-  },
-  {
-   "id": "umber",
-   "part": "live",
-   "benchmark": null,
-   "codename": "Umber",
-   "market": "Gold",
-   "name": "Umber (Gold)",
-   "label": "live",
-   "money": "own",
-   "ongoing": false,
-   "basis": "Per-trade return on the capital each trade uses, compounded. Not a whole-account return.",
-   "notes": [
-    "Live until 2026-11-02; paper from the next day (listed with the paper books).",
-    "Read this figure with care: it compounds each trade's return on the capital that trade used. In money, the account's net result over the same live period was about flat, slightly negative."
-   ],
-   "trades": 33,
-   "start": "2026-07-15",
-   "end": "2026-11-02",
-   "days": 79,
-   "ret_pct": 11.93,
-   "max_dd_pct": -13.18,
-   "ret_30d_pct": null,
-   "sharpe": 1.0,
-   "sortino": null,
-   "calmar": null,
-   "sample": "short",
-   "best_day_pct": 11.91,
-   "worst_day_pct": -9.81,
-   "win_rate_pct": 57.6,
-   "profit_factor": 1.28,
-   "curve": [
-    [
-     "2026-07-14",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-07-15",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-07-16",
-     -6.56,
-     -6.56
-    ],
-    [
-     "2026-07-17",
-     -6.56,
-     -6.56
-    ],
-    [
-     "2026-07-20",
-     -5.13,
-     -5.13
-    ],
-    [
-     "2026-07-21",
-     -1.02,
-     -1.02
-    ],
-    [
-     "2026-07-22",
-     -1.02,
-     -1.02
-    ],
-    [
-     "2026-07-23",
-     -1.02,
-     -1.02
-    ],
-    [
-     "2026-07-24",
-     4.86,
-     0.0
-    ],
-    [
-     "2026-07-27",
-     2.83,
-     -1.94
-    ],
-    [
-     "2026-07-28",
-     2.83,
-     -1.94
-    ],
-    [
-     "2026-07-29",
-     2.83,
-     -1.94
-    ],
-    [
-     "2026-07-30",
-     7.35,
-     0.0
-    ],
-    [
-     "2026-07-31",
-     11.15,
-     0.0
-    ],
-    [
-     "2026-08-03",
-     10.77,
-     -0.35
-    ],
-    [
-     "2026-08-04",
-     10.77,
-     -0.35
-    ],
-    [
-     "2026-08-05",
-     3.54,
-     -6.85
-    ],
-    [
-     "2026-08-06",
-     3.01,
-     -7.33
-    ],
-    [
-     "2026-08-07",
-     3.01,
-     -7.33
-    ],
-    [
-     "2026-08-10",
-     3.01,
-     -7.33
-    ],
-    [
-     "2026-08-11",
-     0.91,
-     -9.22
-    ],
-    [
-     "2026-08-12",
-     0.91,
-     -9.22
-    ],
-    [
-     "2026-08-13",
-     3.98,
-     -6.46
-    ],
-    [
-     "2026-08-14",
-     3.98,
-     -6.46
-    ],
-    [
-     "2026-08-17",
-     3.98,
-     -6.46
-    ],
-    [
-     "2026-08-18",
-     5.73,
-     -4.88
-    ],
-    [
-     "2026-08-19",
-     5.73,
-     -4.88
-    ],
-    [
-     "2026-08-20",
-     5.73,
-     -4.88
-    ],
-    [
-     "2026-08-21",
-     -1.11,
-     -11.03
-    ],
-    [
-     "2026-08-24",
-     -2.06,
-     -11.89
-    ],
-    [
-     "2026-08-25",
-     -2.06,
-     -11.89
-    ],
-    [
-     "2026-08-26",
-     -2.06,
-     -11.89
-    ],
-    [
-     "2026-08-27",
-     -2.06,
-     -11.89
-    ],
-    [
-     "2026-08-28",
-     9.61,
-     -1.39
-    ],
-    [
-     "2026-08-31",
-     9.61,
-     -1.39
-    ],
-    [
-     "2026-09-01",
-     9.61,
-     -1.39
-    ],
-    [
-     "2026-09-02",
-     9.61,
-     -1.39
-    ],
-    [
-     "2026-09-03",
-     9.61,
-     -1.39
-    ],
-    [
-     "2026-09-04",
-     12.77,
-     0.0
-    ],
-    [
-     "2026-09-07",
-     12.77,
-     0.0
-    ],
-    [
-     "2026-09-08",
-     12.77,
-     0.0
-    ],
-    [
-     "2026-09-09",
-     12.77,
-     0.0
-    ],
-    [
-     "2026-09-10",
-     18.6,
-     0.0
-    ],
-    [
-     "2026-09-11",
-     18.6,
-     0.0
-    ],
-    [
-     "2026-09-14",
-     18.6,
-     0.0
-    ],
-    [
-     "2026-09-15",
-     18.6,
-     0.0
-    ],
-    [
-     "2026-09-16",
-     18.6,
-     0.0
-    ],
-    [
-     "2026-09-17",
-     11.23,
-     -6.21
-    ],
-    [
-     "2026-09-18",
-     11.23,
-     -6.21
-    ],
-    [
-     "2026-09-21",
-     11.23,
-     -6.21
-    ],
-    [
-     "2026-09-22",
-     12.86,
-     -4.84
-    ],
-    [
-     "2026-09-23",
-     12.86,
-     -4.84
-    ],
-    [
-     "2026-09-24",
-     12.86,
-     -4.84
-    ],
-    [
-     "2026-09-25",
-     11.72,
-     -5.8
-    ],
-    [
-     "2026-09-28",
-     11.72,
-     -5.8
-    ],
-    [
-     "2026-09-29",
-     11.72,
-     -5.8
-    ],
-    [
-     "2026-09-30",
-     13.55,
-     -4.25
-    ],
-    [
-     "2026-10-01",
-     13.55,
-     -4.25
-    ],
-    [
-     "2026-10-02",
-     13.55,
-     -4.25
-    ],
-    [
-     "2026-10-05",
-     13.55,
-     -4.25
-    ],
-    [
-     "2026-10-06",
-     14.07,
-     -3.82
-    ],
-    [
-     "2026-10-07",
-     14.07,
-     -3.82
-    ],
-    [
-     "2026-10-08",
-     16.82,
-     -1.5
-    ],
-    [
-     "2026-10-09",
-     16.82,
-     -1.5
-    ],
-    [
-     "2026-10-12",
-     16.82,
-     -1.5
-    ],
-    [
-     "2026-10-13",
-     16.82,
-     -1.5
-    ],
-    [
-     "2026-10-14",
-     9.21,
-     -7.92
-    ],
-    [
-     "2026-10-15",
-     13.9,
-     -3.96
-    ],
-    [
-     "2026-10-16",
-     13.9,
-     -3.96
-    ],
-    [
-     "2026-10-19",
-     13.9,
-     -3.96
-    ],
-    [
-     "2026-10-20",
-     13.9,
-     -3.96
-    ],
-    [
-     "2026-10-21",
-     12.61,
-     -5.05
-    ],
-    [
-     "2026-10-22",
-     21.47,
-     0.0
-    ],
-    [
-     "2026-10-23",
-     21.47,
-     0.0
-    ],
-    [
-     "2026-10-26",
-     22.32,
-     0.0
-    ],
-    [
-     "2026-10-27",
-     22.32,
-     0.0
-    ],
-    [
-     "2026-10-28",
-     17.75,
-     -3.73
-    ],
-    [
-     "2026-10-29",
-     17.75,
-     -3.73
-    ],
-    [
-     "2026-10-30",
-     6.19,
-     -13.18
-    ],
-    [
-     "2026-11-02",
-     11.93,
-     -8.49
-    ]
-   ]
-  },
-  {
-   "id": "umber",
-   "part": "paper",
-   "benchmark": null,
-   "codename": "Umber",
-   "market": "Gold",
-   "name": "Umber (Gold)",
-   "label": "paper",
-   "money": "none",
-   "ongoing": true,
-   "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
-   "notes": [
-    "Paper since 2026-11-03, after its live period to 2026-11-02 (listed with the live books)."
-   ],
-   "trades": 5,
-   "start": "2026-11-03",
-   "end": "2026-11-19",
-   "days": 13,
-   "ret_pct": 6.07,
-   "max_dd_pct": -5.34,
-   "ret_30d_pct": null,
-   "sharpe": null,
-   "sortino": null,
-   "calmar": null,
-   "sample": null,
-   "best_day_pct": 9.79,
-   "worst_day_pct": -4.67,
-   "win_rate_pct": null,
-   "profit_factor": null,
-   "curve": [
-    [
-     "2026-11-02",
-     0.0,
-     0.0
-    ],
-    [
-     "2026-11-03",
-     2.06,
-     0.0
-    ],
-    [
-     "2026-11-04",
-     12.05,
-     0.0
-    ],
-    [
-     "2026-11-05",
-     8.38,
-     -3.28
-    ],
-    [
-     "2026-11-06",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-09",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-10",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-11",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-12",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-13",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-16",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-17",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-18",
-     11.26,
-     -0.71
-    ],
-    [
-     "2026-11-19",
-     6.07,
-     -5.34
     ]
    ]
   }
  ],
- "books_shown": 11,
+ "books_shown": 6,
  "calls_book": "Onyx (Bitcoin)",
  "posted_calls": [
   {
@@ -2772,8 +1742,14 @@
   {
    "date": "2026-11-20",
    "side": "long",
-   "sized_ret_pct": null,
+   "sized_ret_pct": -3.71,
    "url": "https://x.com/ModelvsMarketAI/status/2123572036555440256"
+  },
+  {
+   "date": "2026-11-21",
+   "side": "long",
+   "sized_ret_pct": null,
+   "url": "https://x.com/ModelvsMarketAI/status/2123934422269390849"
   }
  ],
  "posted_weekly": [
