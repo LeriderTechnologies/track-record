@@ -3,8 +3,8 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-27 22:47 UTC",
- "ledger_date": "2026-11-27",
+ "as_of": "2026-11-27 23:47 UTC",
+ "ledger_date": "2026-11-28",
  "books": [
   {
    "id": "cobalt",
@@ -405,8 +405,8 @@
    ],
    "trades": 0,
    "start": "2026-11-23",
-   "end": "2026-11-26",
-   "days": 4,
+   "end": "2026-11-27",
+   "days": 5,
    "ret_pct": 0.0,
    "max_dd_pct": 0.0,
    "ret_30d_pct": null,
@@ -443,6 +443,11 @@
      "2026-11-26",
      0.0,
      0.0
+    ],
+    [
+     "2026-11-27",
+     0.0,
+     0.0
     ]
    ]
   },
@@ -451,7 +456,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -2.09,
+    "ret_pct": -2.2,
     "max_dd_pct": -31.94,
     "end": "2026-11-27"
    },
@@ -463,18 +468,18 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -2.09%, max drawdown -31.94%.",
+    "Bitcoin buy-and-hold over the same days: -2.20%, max drawdown -31.94%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 61,
    "start": "2026-06-25",
    "end": "2026-11-27",
    "days": 156,
-   "ret_pct": 131.16,
+   "ret_pct": 131.36,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": -2.92,
-   "sharpe": 2.65,
-   "sortino": 5.52,
+   "ret_30d_pct": -2.83,
+   "sharpe": 2.66,
+   "sortino": 5.53,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1264,8 +1269,8 @@
     ],
     [
      "2026-11-27",
-     131.16,
-     -26.94
+     131.36,
+     -26.88
     ]
    ]
   },
@@ -1274,7 +1279,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -27.29,
+    "ret_pct": -27.37,
     "max_dd_pct": -29.9,
     "end": "2026-11-27"
    },
@@ -1286,7 +1291,7 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -27.29%, max drawdown -29.90%."
+    "Bitcoin buy-and-hold over the same days: -27.37%, max drawdown -29.90%."
    ],
    "trades": 9,
    "start": "2026-10-16",
@@ -1770,11 +1775,11 @@
    "notes": [],
    "trades": 22,
    "start": "2026-10-26",
-   "end": "2026-11-26",
-   "days": 24,
+   "end": "2026-11-27",
+   "days": 25,
    "ret_pct": 7.82,
    "max_dd_pct": -2.99,
-   "ret_30d_pct": 7.35,
+   "ret_30d_pct": 5.33,
    "sharpe": null,
    "sortino": null,
    "calmar": null,
@@ -1908,6 +1913,11 @@
      "2026-11-26",
      7.82,
      -0.95
+    ],
+    [
+     "2026-11-27",
+     7.82,
+     -0.95
     ]
    ]
   },
@@ -1925,11 +1935,11 @@
    "notes": [],
    "trades": 22,
    "start": "2026-10-26",
-   "end": "2026-11-26",
-   "days": 24,
+   "end": "2026-11-27",
+   "days": 25,
    "ret_pct": -0.22,
    "max_dd_pct": -3.38,
-   "ret_30d_pct": 0.44,
+   "ret_30d_pct": 0.55,
    "sharpe": null,
    "sortino": null,
    "calmar": null,
@@ -2063,6 +2073,11 @@
      "2026-11-26",
      -0.22,
      -2.65
+    ],
+    [
+     "2026-11-27",
+     -0.22,
+     -2.65
     ]
    ]
   },
@@ -2080,11 +2095,11 @@
    "notes": [],
    "trades": 22,
    "start": "2026-10-26",
-   "end": "2026-11-26",
-   "days": 24,
+   "end": "2026-11-27",
+   "days": 25,
    "ret_pct": -5.59,
    "max_dd_pct": -17.06,
-   "ret_30d_pct": -4.47,
+   "ret_30d_pct": -5.66,
    "sharpe": null,
    "sortino": null,
    "calmar": null,
@@ -2218,6 +2233,11 @@
      "2026-11-26",
      -5.59,
      -13.29
+    ],
+    [
+     "2026-11-27",
+     -5.59,
+     -13.29
     ]
    ]
   },
@@ -2235,11 +2255,11 @@
    "notes": [],
    "trades": 22,
    "start": "2026-10-26",
-   "end": "2026-11-26",
-   "days": 24,
+   "end": "2026-11-27",
+   "days": 25,
    "ret_pct": 4.72,
    "max_dd_pct": -12.59,
-   "ret_30d_pct": 2.35,
+   "ret_30d_pct": -3.4,
    "sharpe": null,
    "sortino": null,
    "calmar": null,
@@ -2373,6 +2393,11 @@
      "2026-11-26",
      4.72,
      -6.12
+    ],
+    [
+     "2026-11-27",
+     4.72,
+     -6.12
     ]
    ]
   },
@@ -2390,8 +2415,8 @@
    "notes": [],
    "trades": 26,
    "start": "2026-11-01",
-   "end": "2026-11-26",
-   "days": 26,
+   "end": "2026-11-27",
+   "days": 27,
    "ret_pct": 1.16,
    "max_dd_pct": -1.68,
    "ret_30d_pct": null,
@@ -2536,6 +2561,11 @@
     ],
     [
      "2026-11-26",
+     1.16,
+     -1.28
+    ],
+    [
+     "2026-11-27",
      1.16,
      -1.28
     ]
@@ -2990,8 +3020,8 @@
    ],
    "trades": 8,
    "start": "2026-11-03",
-   "end": "2026-11-26",
-   "days": 18,
+   "end": "2026-11-27",
+   "days": 19,
    "ret_pct": 6.78,
    "max_dd_pct": -9.53,
    "ret_30d_pct": null,
@@ -3096,6 +3126,11 @@
     ],
     [
      "2026-11-26",
+     6.78,
+     -9.53
+    ],
+    [
+     "2026-11-27",
      6.78,
      -9.53
     ]
