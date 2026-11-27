@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-27 18:47 UTC",
+ "as_of": "2026-11-27 19:47 UTC",
  "ledger_date": "2026-11-27",
  "books": [
   {
@@ -451,7 +451,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -1.88,
+    "ret_pct": -1.91,
     "max_dd_pct": -31.94,
     "end": "2026-11-27"
    },
@@ -463,18 +463,18 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -1.88%, max drawdown -31.94%.",
+    "Bitcoin buy-and-hold over the same days: -1.91%, max drawdown -31.94%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 61,
    "start": "2026-06-25",
    "end": "2026-11-27",
    "days": 156,
-   "ret_pct": 131.29,
+   "ret_pct": 131.68,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": -2.86,
+   "ret_30d_pct": -2.7,
    "sharpe": 2.66,
-   "sortino": 5.53,
+   "sortino": 5.54,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1264,8 +1264,8 @@
     ],
     [
      "2026-11-27",
-     131.29,
-     -26.9
+     131.68,
+     -26.78
     ]
    ]
   },
@@ -1274,7 +1274,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -27.14,
+    "ret_pct": -27.15,
     "max_dd_pct": -29.9,
     "end": "2026-11-27"
    },
@@ -1286,7 +1286,7 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -27.14%, max drawdown -29.90%."
+    "Bitcoin buy-and-hold over the same days: -27.15%, max drawdown -29.90%."
    ],
    "trades": 9,
    "start": "2026-10-16",
