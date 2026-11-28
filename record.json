@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-28 01:47 UTC",
+ "as_of": "2026-11-28 02:47 UTC",
  "ledger_date": "2026-11-28",
  "books": [
   {
@@ -461,7 +461,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -1.93,
+    "ret_pct": -1.46,
     "max_dd_pct": -31.94,
     "end": "2026-11-28"
    },
@@ -473,18 +473,18 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -1.93%, max drawdown -31.94%.",
+    "Bitcoin buy-and-hold over the same days: -1.46%, max drawdown -31.94%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
    "trades": 62,
    "start": "2026-06-25",
    "end": "2026-11-28",
    "days": 157,
-   "ret_pct": 132.16,
+   "ret_pct": 131.56,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": -11.15,
-   "sharpe": 2.66,
-   "sortino": 5.53,
+   "ret_30d_pct": -11.38,
+   "sharpe": 2.65,
+   "sortino": 5.52,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
@@ -1279,8 +1279,8 @@
     ],
     [
      "2026-11-28",
-     132.16,
-     -26.63
+     131.56,
+     -26.82
     ]
    ]
   },
@@ -2428,12 +2428,12 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
-   "trades": 26,
+   "trades": 27,
    "start": "2026-11-01",
    "end": "2026-11-27",
    "days": 27,
-   "ret_pct": 1.16,
-   "max_dd_pct": -1.68,
+   "ret_pct": 0.58,
+   "max_dd_pct": -1.85,
    "ret_30d_pct": null,
    "sharpe": null,
    "sortino": null,
@@ -2441,8 +2441,8 @@
    "sample": null,
    "best_day_pct": 1.08,
    "worst_day_pct": -1.0,
-   "win_rate_pct": 46.2,
-   "profit_factor": 1.24,
+   "win_rate_pct": 44.4,
+   "profit_factor": 1.11,
    "curve": [
     [
      "2026-10-31",
@@ -2581,8 +2581,8 @@
     ],
     [
      "2026-11-27",
-     1.16,
-     -1.28
+     0.58,
+     -1.85
     ]
    ]
   },
