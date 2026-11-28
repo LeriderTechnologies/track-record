@@ -3,7 +3,7 @@
  "title": "Model vs the Market: track record",
  "publisher": "Lerider Technologies (research)",
  "scope": "selected books, live and paper",
- "as_of": "2026-11-27 23:47 UTC",
+ "as_of": "2026-11-28 00:47 UTC",
  "ledger_date": "2026-11-28",
  "books": [
   {
@@ -456,7 +456,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -2.2,
+    "ret_pct": -1.89,
     "max_dd_pct": -31.94,
     "end": "2026-11-27"
    },
@@ -468,24 +468,24 @@
    "ongoing": true,
    "basis": "Whole-account equity, net of deposits and withdrawals, open positions included.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -2.20%, max drawdown -31.94%.",
+    "Bitcoin buy-and-hold over the same days: -1.89%, max drawdown -31.94%.",
     "The daily calls posted on X (table below) are scored open to open from the model's prices, after fees, so they differ slightly from this account curve."
    ],
-   "trades": 61,
+   "trades": 62,
    "start": "2026-06-25",
-   "end": "2026-11-27",
-   "days": 156,
-   "ret_pct": 131.36,
+   "end": "2026-11-28",
+   "days": 157,
+   "ret_pct": 131.6,
    "max_dd_pct": -38.16,
-   "ret_30d_pct": -2.83,
-   "sharpe": 2.66,
-   "sortino": 5.53,
+   "ret_30d_pct": -11.36,
+   "sharpe": 2.65,
+   "sortino": 5.52,
    "calmar": null,
    "sample": "ok",
    "best_day_pct": 23.87,
    "worst_day_pct": -13.22,
-   "win_rate_pct": 52.5,
-   "profit_factor": 1.63,
+   "win_rate_pct": 51.6,
+   "profit_factor": 1.62,
    "curve": [
     [
      "2026-06-24",
@@ -1269,8 +1269,13 @@
     ],
     [
      "2026-11-27",
-     131.36,
-     -26.88
+     131.66,
+     -26.79
+    ],
+    [
+     "2026-11-28",
+     131.6,
+     -26.8
     ]
    ]
   },
@@ -1279,7 +1284,7 @@
    "part": "all",
    "benchmark": {
     "name": "Bitcoin",
-    "ret_pct": -27.37,
+    "ret_pct": -27.14,
     "max_dd_pct": -29.9,
     "end": "2026-11-27"
    },
@@ -1291,7 +1296,7 @@
    "ongoing": true,
    "basis": "Net result per closed trade as % of the account balance before entry, compounded. The account trades live orders on simulated capital: no own money at risk.",
    "notes": [
-    "Bitcoin buy-and-hold over the same days: -27.37%, max drawdown -29.90%."
+    "Bitcoin buy-and-hold over the same days: -27.14%, max drawdown -29.90%."
    ],
    "trades": 9,
    "start": "2026-10-16",
@@ -1543,21 +1548,21 @@
    "ongoing": true,
    "basis": "Paper: the model's decisions in a simulated ledger, compounded, after modelled fees and slippage. No orders, no money.",
    "notes": [],
-   "trades": 39,
+   "trades": 40,
    "start": "2026-10-20",
-   "end": "2026-11-27",
-   "days": 39,
-   "ret_pct": 2.96,
+   "end": "2026-11-28",
+   "days": 40,
+   "ret_pct": 1.57,
    "max_dd_pct": -2.97,
-   "ret_30d_pct": 2.04,
-   "sharpe": 1.96,
+   "ret_30d_pct": 0.41,
+   "sharpe": 1.03,
    "sortino": null,
    "calmar": null,
    "sample": "short",
    "best_day_pct": 1.66,
    "worst_day_pct": -1.68,
-   "win_rate_pct": 53.8,
-   "profit_factor": 1.3,
+   "win_rate_pct": 52.5,
+   "profit_factor": 1.15,
    "curve": [
     [
      "2026-10-19",
@@ -1758,6 +1763,11 @@
      "2026-11-27",
      2.96,
      -1.43
+    ],
+    [
+     "2026-11-28",
+     1.57,
+     -2.76
     ]
    ]
   },
@@ -3269,8 +3279,14 @@
   {
    "date": "2026-11-27",
    "side": "long",
-   "sized_ret_pct": null,
+   "sized_ret_pct": -0.74,
    "url": "https://x.com/ModelvsMarketAI/status/2126108752201826422"
+  },
+  {
+   "date": "2026-11-28",
+   "side": "long",
+   "sized_ret_pct": null,
+   "url": "https://x.com/ModelvsMarketAI/status/2126471139635437737"
   }
  ],
  "posted_weekly": [
